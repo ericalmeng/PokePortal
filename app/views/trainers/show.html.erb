@@ -2,7 +2,7 @@
 <p>Name: <%= @trainer.name if @trainer.name %></p>
 <p>Email: <%= @trainer.email if @trainer.email %></p>
 
-<h4>Trainer's Captured Pokemon</h4>
+<h4>Captured Pokemon</h4>
 <table>                         
   <tr>                          
     <th>Name</th>
@@ -21,8 +21,6 @@
 	  </tr>
 	<% end %>
 <% end %>
-
-<% trainer.pokemons %>
 </table> 
 
 <% if current_trainer == @trainer %>
