@@ -9,5 +9,4 @@ class TrainersController < ApplicationController
   	@all_pokemon = Pokemon.all
     @trainer = Trainer.find(params[:id])
   end
-
 end
